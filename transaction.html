@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SoftBank - Html Dashboard</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootsrtap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- all css -->
+    <link rel="stylesheet" href="css/all.css" />
+    <!-- flaticon css -->
+    <link rel="stylesheet" href="css/flaticon.css" />
+    <!-- slick css -->
+    <link rel="stylesheet" href="css/slick.css" />
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- dark css -->
+    <link rel="stylesheet" href="css/dark-mode.css" />
+    <!-- responsive fonts -->
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!-- left-sidebar start -->
+    <aside>
+      <div class="left-sidebar">
+        <div class="logo-area">
+          <div class="main-logo">
+            <a href="index.html"
+              ><img src="images/soft-bank.png" alt="images"
+            /></a>
+          </div>
+        </div>
+        <div class="sidebar-menu">
+          <ul>
+            <li>
+              <a href="index.html">
+                <i class="flaticon-home"></i>
+                <span>Dashboard</span>
+              </a>
+            </li>
+            <li class="active">
+              <a href="transaction.html">
+                <i class="flaticon-money-transfer"></i>
+                <span>Transactions</span>
+              </a>
+            </li>
+            <li>
+              <a href="account.html">
+                <i class="flaticon-user"></i>
+                <span>Accounts</span>
+              </a>
+            </li>
+            <li>
+              <a href="investment.html">
+                <i class="flaticon-economic-investment"></i>
+                <span>Investments</span>
+              </a>
+            </li>
+            <li>
+              <a href="credit-card.html">
+                <i class="flaticon-credit-card"></i>
+                <span>Credit Cards</span>
+              </a>
+            </li>
+            <li>
+              <a href="loan.html">
+                <i class="flaticon-loan"></i>
+                <span>Loans</span>
+              </a>
+            </li>
+            <li>
+              <a href="service.html">
+                <i class="flaticon-service"></i>
+                <span>Services</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="flaticon-econometrics"></i>
+                <span>My Privileges</span>
+              </a>
+            </li>
+            <li>
+              <a href="forms.html">
+                <i class="flaticon-econometrics"></i>
+                <span>Forms</span>
+              </a>
+            </li>
+            <li>
+              <a href="setting.html">
+                <i class="flaticon-settings"></i>
+                <span>Setting</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+    <!-- left-sidebar end -->
+    <!-- top-bar start -->
+    <header>
+      <div class="top-area">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 col-md-3">
+              <div class="top-heading">
+                <h2>Transactions</h2>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4">
+              <div class="search-bar">
+                <form action="#">
+                  <button><i class="flaticon-magnifying-glass"></i></button>
+                  <input type="text" placeholder="Search for something" />
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-5">
+              <div class="settings">
+                <a href="#">
+                  <i class="flaticon-settings-1"></i>
+                </a>
+              </div>
+              <div class="notofication">
+                <a href="#">
+                  <i class="flaticon-notification"></i>
+                </a>
+              </div>
+              <div class="profile">
+                <a href="#">
+                  <img src="images/profile.png" alt="images" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="toogle-bar">
+          <span id="toggle"><i class="fas fa-bars"></i></span>
+        </div>
+      </div>
+    </header>
+    <!-- top-bar end -->
+    <!-- main-content start -->
+    <div class="main-content">
+      <div class="transaction-content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="cards">
+                <div class="heading">
+                  <h2>My Cards</h2>
+                  <a href="#">+ Add Card</a>
+                </div>
+                <div class="card-slider row">
+                  <div class="col-lg-6">
+                    <div class="single-card">
+                      <div class="first-card">
+                        <div class="chip-area">
+                          <div class="balance">
+                            <p>Balance</p>
+                            <span>$5,756</span>
+                          </div>
+                          <div class="chip-img">
+                            <img src="images/chip-img-1.png" alt="images" />
+                          </div>
+                        </div>
+                        <div class="holder">
+                          <div class="single-holder">
+                            <p>CARD HOLDER</p>
+                            <span>Eddy Cusuma</span>
+                          </div>
+                          <div class="single-holder">
+                            <p>VALID THRU</p>
+                            <span>12/22</span>
+                          </div>
+                        </div>
+                        <div class="card-number">
+                          <p>3778 **** **** 1234</p>
+                          <div class="master-img">
+                            <img src="images/master-img.png" alt="images" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="single-card">
+                      <div class="second-card">
+                        <div class="chip-area">
+                          <div class="balance">
+                            <p>Balance</p>
+                            <span>$5,756</span>
+                          </div>
+                          <div class="chip-img">
+                            <img src="images/chip-img-2.png" alt="images" />
+                          </div>
+                        </div>
+                        <div class="holder">
+                          <div class="single-holder">
+                            <p>CARD HOLDER</p>
+                            <span>Eddy Cusuma</span>
+                          </div>
+                          <div class="single-holder">
+                            <p>VALID THRU</p>
+                            <span>12/22</span>
+                          </div>
+                        </div>
+                        <div class="card-number">
+                          <p>3778 **** **** 1234</p>
+                          <div class="master-img">
+                            <img src="images/master-img-2.png" alt="images" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="expense">
+                <div class="heading">
+                  <h2>My Expense</h2>
+                </div>
+                <div class="expense-chart">
+                  <div
+                    id="expartchartContainer"
+                    style="height: 200px; width: 100%"
+                  ></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="heading">
+                <h2>Recent Transactions</h2>
+              </div>
+              <div class="transection-table">
+                <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <a
+                      class="nav-link active"
+                      id="pills-home-tab"
+                      data-toggle="pill"
+                      href="#pills-home"
+                      role="tab"
+                      aria-controls="pills-home"
+                      aria-selected="true"
+                      >All Transactions</a
+                    >
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a
+                      class="nav-link"
+                      id="pills-profile-tab"
+                      data-toggle="pill"
+                      href="#pills-profile"
+                      role="tab"
+                      aria-controls="pills-profile"
+                      aria-selected="false"
+                      >Income</a
+                    >
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a
+                      class="nav-link"
+                      id="pills-contact-tab"
+                      data-toggle="pill"
+                      href="#pills-contact"
+                      role="tab"
+                      aria-controls="pills-contact"
+                      aria-selected="false"
+                      >Expense</a
+                    >
+                  </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                  <div
+                    class="tab-pane fade show active"
+                    id="pills-home"
+                    role="tabpanel"
+                    aria-labelledby="pills-home-tab"
+                  >
+                    <div class="table-responsive">
+                      <table>
+                        <tr>
+                          <th>
+                            <p>Description</p>
+                          </th>
+                          <th>
+                            <p>Transaction ID</p>
+                          </th>
+                          <th>
+                            <p>Type</p>
+                          </th>
+                          <th>
+                            <p>Card</p>
+                          </th>
+                          <th>
+                            <p>Date</p>
+                          </th>
+                          <th>
+                            <p>Amount</p>
+                          </th>
+                          <th>
+                            <p>Receipt</p>
+                          </th>
+                        </tr>
+                        <tr>
+                          <td>
+                            <i class="flaticon-up-arrow"></i>
+                            <p>Spotify Subscription</p>
+                          </td>
+                          <td>
+                            <p>#12548796</p>
+                          </td>
+                          <td>
+                            <p>Shopping</p>
+                          </td>
+                          <td>
+                            <p>1234 ****</p>
+                          </td>
+                          <td>
+                            <p>28 Jan, 12.30 AM</p>
+                          </td>
+                          <td>
+                            <span>-$2,500</span>
+                          </td>
+                          <td>
+                            <a href="#">Download</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <i class="flaticon-down-arrow"></i>
+                            <p>Spotify Subscription</p>
+                          </td>
+                          <td>
+                            <p>#12548796</p>
+                          </td>
+                          <td>
+                            <p>Shopping</p>
+                          </td>
+                          <td>
+                            <p>1234 ****</p>
+                          </td>
+                          <td>
+                            <p>28 Jan, 12.30 AM</p>
+                          </td>
+                          <td>
+                            <span style="color: #16dbaa">-$2,500</span>
+                          </td>
+                          <td>
+                            <a href="#">Download</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <i class="flaticon-up-arrow"></i>
+                            <p>Spotify Subscription</p>
+                          </td>
+                          <td>
+                            <p>#12548796</p>
+                          </td>
+                          <td>
+                            <p>Shopping</p>
+                          </td>
+                          <td>
+                            <p>1234 ****</p>
+                          </td>
+                          <td>
+                            <p>28 Jan, 12.30 AM</p>
+                          </td>
+                          <td>
+                            <span>-$2,500</span>
+                          </td>
+                          <td>
+                            <a href="#">Download</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <i class="flaticon-up-arrow"></i>
+                            <p>Spotify Subscription</p>
+                          </td>
+                          <td>
+                            <p>#12548796</p>
+                          </td>
+                          <td>
+                            <p>Shopping</p>
+                          </td>
+                          <td>
+                            <p>1234 ****</p>
+                          </td>
+                          <td>
+                            <p>28 Jan, 12.30 AM</p>
+                          </td>
+                          <td>
+                            <span>-$2,500</span>
+                          </td>
+                          <td>
+                            <a href="#">Download</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <i class="flaticon-down-arrow"></i>
+                            <p>Spotify Subscription</p>
+                          </td>
+                          <td>
+                            <p>#12548796</p>
+                          </td>
+                          <td>
+                            <p>Shopping</p>
+                          </td>
+                          <td>
+                            <p>1234 ****</p>
+                          </td>
+                          <td>
+                            <p>28 Jan, 12.30 AM</p>
+                          </td>
+                          <td>
+                            <span style="color: #16dbaa">-$2,500</span>
+                          </td>
+                          <td>
+                            <a href="#">Download</a>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="pills-profile"
+                    role="tabpanel"
+                    aria-labelledby="pills-profile-tab"
+                  >
+                    <div class="table-responsive">
+                      <table>
+                        <tr>
+                          <th>
+                            <p>Description</p>
+                          </th>
+                          <th>
+                            <p>Transaction ID</p>
+                          </th>
+                          <th>
+                            <p>Type</p>
+                          </th>
+                          <th>
+                            <p>Card</p>
+                          </th>
+                          <th>
+                            <p>Date</p>
+                          </th>
+                          <th>
+                            <p>Amount</p>
+                          </th>
+                          <th>
+                            <p>Receipt</p>
+                          </th>
+                        </tr>
+                        <tr>
+                          <td>
+                            <i class="flaticon-up-arrow"></i>
+                            <p>Spotify Subscription</p>
+                          </td>
+                          <td>
+                            <p>#12548796</p>
+                          </td>
+                          <td>
+                            <p>Shopping</p>
+                          </td>
+                          <td>
+                            <p>1234 ****</p>
+                          </td>
+                          <td>
+                            <p>28 Jan, 12.30 AM</p>
+                          </td>
+                          <td>
+                            <span>-$2,500</span>
+                          </td>
+                          <td>
+                            <a href="#">Download</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <i class="flaticon-down-arrow"></i>
+                            <p>Spotify Subscription</p>
+                          </td>
+                          <td>
+                            <p>#12548796</p>
+                          </td>
+                          <td>
+                            <p>Shopping</p>
+                          </td>
+                          <td>
+                            <p>1234 ****</p>
+                          </td>
+                          <td>
+                            <p>28 Jan, 12.30 AM</p>
+                          </td>
+                          <td>
+                            <span style="color: #16dbaa">-$2,500</span>
+                          </td>
+                          <td>
+                            <a href="#">Download</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <i class="flaticon-up-arrow"></i>
+                            <p>Spotify Subscription</p>
+                          </td>
+                          <td>
+                            <p>#12548796</p>
+                          </td>
+                          <td>
+                            <p>Shopping</p>
+                          </td>
+                          <td>
+                            <p>1234 ****</p>
+                          </td>
+                          <td>
+                            <p>28 Jan, 12.30 AM</p>
+                          </td>
+                          <td>
+                            <span>-$2,500</span>
+                          </td>
+                          <td>
+                            <a href="#">Download</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <i class="flaticon-up-arrow"></i>
+                            <p>Spotify Subscription</p>
+                          </td>
+                          <td>
+                            <p>#12548796</p>
+                          </td>
+                          <td>
+                            <p>Shopping</p>
+                          </td>
+                          <td>
+                            <p>1234 ****</p>
+                          </td>
+                          <td>
+                            <p>28 Jan, 12.30 AM</p>
+                          </td>
+                          <td>
+                            <span>-$2,500</span>
+                          </td>
+                          <td>
+                            <a href="#">Download</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <i class="flaticon-down-arrow"></i>
+                            <p>Spotify Subscription</p>
+                          </td>
+                          <td>
+                            <p>#12548796</p>
+                          </td>
+                          <td>
+                            <p>Shopping</p>
+                          </td>
+                          <td>
+                            <p>1234 ****</p>
+                          </td>
+                          <td>
+                            <p>28 Jan, 12.30 AM</p>
+                          </td>
+                          <td>
+                            <span style="color: #16dbaa">-$2,500</span>
+                          </td>
+                          <td>
+                            <a href="#">Download</a>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="pills-contact"
+                    role="tabpanel"
+                    aria-labelledby="pills-contact-tab"
+                  >
+                    <div class="table-responsive">
+                      <table>
+                        <tr>
+                          <th>
+                            <p>Description</p>
+                          </th>
+                          <th>
+                            <p>Transaction ID</p>
+                          </th>
+                          <th>
+                            <p>Type</p>
+                          </th>
+                          <th>
+                            <p>Card</p>
+                          </th>
+                          <th>
+                            <p>Date</p>
+                          </th>
+                          <th>
+                            <p>Amount</p>
+                          </th>
+                          <th>
+                            <p>Receipt</p>
+                          </th>
+                        </tr>
+                        <tr>
+                          <td>
+                            <i class="flaticon-up-arrow"></i>
+                            <p>Spotify Subscription</p>
+                          </td>
+                          <td>
+                            <p>#12548796</p>
+                          </td>
+                          <td>
+                            <p>Shopping</p>
+                          </td>
+                          <td>
+                            <p>1234 ****</p>
+                          </td>
+                          <td>
+                            <p>28 Jan, 12.30 AM</p>
+                          </td>
+                          <td>
+                            <span>-$2,500</span>
+                          </td>
+                          <td>
+                            <a href="#">Download</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <i class="flaticon-down-arrow"></i>
+                            <p>Spotify Subscription</p>
+                          </td>
+                          <td>
+                            <p>#12548796</p>
+                          </td>
+                          <td>
+                            <p>Shopping</p>
+                          </td>
+                          <td>
+                            <p>1234 ****</p>
+                          </td>
+                          <td>
+                            <p>28 Jan, 12.30 AM</p>
+                          </td>
+                          <td>
+                            <span style="color: #16dbaa">-$2,500</span>
+                          </td>
+                          <td>
+                            <a href="#">Download</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <i class="flaticon-up-arrow"></i>
+                            <p>Spotify Subscription</p>
+                          </td>
+                          <td>
+                            <p>#12548796</p>
+                          </td>
+                          <td>
+                            <p>Shopping</p>
+                          </td>
+                          <td>
+                            <p>1234 ****</p>
+                          </td>
+                          <td>
+                            <p>28 Jan, 12.30 AM</p>
+                          </td>
+                          <td>
+                            <span>-$2,500</span>
+                          </td>
+                          <td>
+                            <a href="#">Download</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <i class="flaticon-up-arrow"></i>
+                            <p>Spotify Subscription</p>
+                          </td>
+                          <td>
+                            <p>#12548796</p>
+                          </td>
+                          <td>
+                            <p>Shopping</p>
+                          </td>
+                          <td>
+                            <p>1234 ****</p>
+                          </td>
+                          <td>
+                            <p>28 Jan, 12.30 AM</p>
+                          </td>
+                          <td>
+                            <span>-$2,500</span>
+                          </td>
+                          <td>
+                            <a href="#">Download</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <i class="flaticon-down-arrow"></i>
+                            <p>Spotify Subscription</p>
+                          </td>
+                          <td>
+                            <p>#12548796</p>
+                          </td>
+                          <td>
+                            <p>Shopping</p>
+                          </td>
+                          <td>
+                            <p>1234 ****</p>
+                          </td>
+                          <td>
+                            <p>28 Jan, 12.30 AM</p>
+                          </td>
+                          <td>
+                            <span style="color: #16dbaa">-$2,500</span>
+                          </td>
+                          <td>
+                            <a href="#">Download</a>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination justify-content-end">
+                    <li class="page-item">
+                      <a
+                        class="page-link"
+                        href="#"
+                        tabindex="-1"
+                        aria-disabled="true"
+                        ><i class="fas fa-chevron-left"></i>Previous</a
+                      >
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">1</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">3</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#"
+                        >Next<i class="fas fa-chevron-right"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- main-content end -->
+
+    <!-- jquery js -->
+    <script src="js/jquery.js"></script>
+    <!-- bootstrap min js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- bootstrap.bundle js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- canvasjs js -->
+    <script src="js/jquery.canvasjs.min.js"></script>
+    <!-- slick js -->
+    <script src="js/slick.min.js"></script>
+    <!-- main js -->
+    <script src="js/main.js"></script>
+    <script>
+      window.onload = function () {
+        var options = {
+          axisX: {
+            gridColor: "transparent",
+            gridThickness: 1,
+            tickLength: 0, //tick height
+            lineThickness: 0,
+          },
+
+          axisY: {
+            gridColor: "transparent",
+            gridThickness: 1,
+            tickLength: 0,
+            lineThickness: 0,
+          },
+          data: [
+            {
+              type: "column",
+              dataPoints: [
+                { label: "Aug", y: 20, color: "#EDF0F7" },
+                { label: "Sep", y: 35, color: "#EDF0F7" },
+                { label: "Oct", y: 25, color: "#EDF0F7" },
+                { label: "Nov", y: 15, color: "#EDF0F7" },
+                {
+                  label: "Dec",
+                  y: 28,
+                  color: "#16DBCC",
+                  indexLabel: "$12,500",
+                },
+                { label: "Jan", y: 20, color: "#EDF0F7" },
+              ],
+            },
+          ],
+        };
+
+        $("#expartchartContainer").CanvasJSChart(options);
+      };
+    </script>
+  </body>
+</html>
