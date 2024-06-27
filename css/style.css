@@ -13,7 +13,6 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6 {
   margin: 0;
   padding: 0;
@@ -1883,9 +1882,6 @@ img {
   border-radius: 50px;
 }
 
-.main-content .setting-content {
-  /* Rounded sliders */
-}
 
 .main-content .setting-content .switch {
   position: relative;
@@ -1947,7 +1943,7 @@ img {
 }
 
 .main-content .setting-content .settings-tab {
-  background: #ffffff;
+  background: #E7EDFF;
   border-radius: 25px;
   padding: 40px 30px;
 }
@@ -2056,4 +2052,39 @@ img {
 .main-content .setting-content .settings-tab .preference-edit .notification {
   margin-top: 5px;
 }
+
+
+.section-title {
+  text-align: left;
+  padding: 10px;
+  font-weight: bold;
+}
+
+
+.section-subtitle {
+  padding: 15px;
+  text-align: left;
+  font-weight: 300;
+}
+
+.collapse-button {
+  cursor: pointer;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.collapse-button .arrow-icon {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.collapsed .collapse-button .arrow-icon {
+  transform: rotate(-90deg);
+}
+
+.collapse-button:hover {
+  color: #007bff;
+}
+
 /*# sourceMappingURL=style.css.map */
