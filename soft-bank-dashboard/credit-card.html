@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SoftBank - Html Dashboard</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootsrtap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- all css -->
+    <link rel="stylesheet" href="css/all.css" />
+    <!-- flaticon css -->
+    <link rel="stylesheet" href="css/flaticon.css" />
+    <!-- slick css -->
+    <link rel="stylesheet" href="css/slick.css" />
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- dark css -->
+    <link rel="stylesheet" href="css/dark-mode.css" />
+    <!-- responsive fonts -->
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!-- left-sidebar start -->
+    <aside>
+      <div class="left-sidebar">
+        <div class="logo-area">
+          <div class="main-logo">
+            <a href="index.html"
+              ><img src="images/soft-bank.png" alt="images"
+            /></a>
+          </div>
+        </div>
+        <div class="sidebar-menu">
+          <ul>
+            <li>
+              <a href="index.html">
+                <i class="flaticon-home"></i>
+                <span>Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <a href="transaction.html">
+                <i class="flaticon-money-transfer"></i>
+                <span>Transactions</span>
+              </a>
+            </li>
+            <li>
+              <a href="account.html">
+                <i class="flaticon-user"></i>
+                <span>Accounts</span>
+              </a>
+            </li>
+            <li>
+              <a href="investment.html">
+                <i class="flaticon-economic-investment"></i>
+                <span>Investments</span>
+              </a>
+            </li>
+            <li class="active">
+              <a href="credit-card.html">
+                <i class="flaticon-credit-card"></i>
+                <span>Credit Cards</span>
+              </a>
+            </li>
+            <li>
+              <a href="loan.html">
+                <i class="flaticon-loan"></i>
+                <span>Loans</span>
+              </a>
+            </li>
+            <li>
+              <a href="service.html">
+                <i class="flaticon-service"></i>
+                <span>Services</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="flaticon-econometrics"></i>
+                <span>My Privileges</span>
+              </a>
+            </li>
+            <li>
+              <a href="forms.html">
+                <i class="flaticon-econometrics"></i>
+                <span>Forms</span>
+              </a>
+            </li>
+            <li>
+              <a href="setting.html">
+                <i class="flaticon-settings"></i>
+                <span>Setting</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+    <!-- left-sidebar end -->
+    <!-- top-bar start -->
+    <header>
+      <div class="top-area">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 col-md-3">
+              <div class="top-heading">
+                <h2>Credit Cards</h2>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4">
+              <div class="search-bar">
+                <form action="#">
+                  <button><i class="flaticon-magnifying-glass"></i></button>
+                  <input type="text" placeholder="Search for something" />
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-5">
+              <div class="settings">
+                <a href="#">
+                  <i class="flaticon-settings-1"></i>
+                </a>
+              </div>
+              <div class="notofication">
+                <a href="#">
+                  <i class="flaticon-notification"></i>
+                </a>
+              </div>
+              <div class="profile">
+                <a href="#">
+                  <img src="images/profile.png" alt="images" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="toogle-bar">
+          <span id="toggle"><i class="fas fa-bars"></i></span>
+        </div>
+      </div>
+    </header>
+    <!-- top-bar end -->
+    <!-- main-content start -->
+    <div class="main-content">
+      <div class="cradit-content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="cards">
+                <div class="heading">
+                  <h2>My Cards</h2>
+                </div>
+                <div class="card-slider-two row">
+                  <div class="col-lg-4">
+                    <div class="transection-card">
+                      <div class="third-card">
+                        <div class="chip-area">
+                          <div class="balance">
+                            <p>Balance</p>
+                            <span>$5,756</span>
+                          </div>
+                          <div class="chip-img">
+                            <img src="images/chip-img-1.png" alt="images" />
+                          </div>
+                        </div>
+                        <div class="holder">
+                          <div class="single-holder">
+                            <p>CARD HOLDER</p>
+                            <span>Eddy Cusuma</span>
+                          </div>
+                          <div class="single-holder">
+                            <p>VALID THRU</p>
+                            <span>12/22</span>
+                          </div>
+                        </div>
+                        <div class="card-number">
+                          <p>3778 **** **** 1234</p>
+                          <div class="master-img">
+                            <img src="images/master-img.png" alt="images" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="single-card">
+                      <div class="first-card">
+                        <div class="chip-area">
+                          <div class="balance">
+                            <p>Balance</p>
+                            <span>$5,756</span>
+                          </div>
+                          <div class="chip-img">
+                            <img src="images/chip-img-1.png" alt="images" />
+                          </div>
+                        </div>
+                        <div class="holder">
+                          <div class="single-holder">
+                            <p>CARD HOLDER</p>
+                            <span>Eddy Cusuma</span>
+                          </div>
+                          <div class="single-holder">
+                            <p>VALID THRU</p>
+                            <span>12/22</span>
+                          </div>
+                        </div>
+                        <div class="card-number">
+                          <p>3778 **** **** 1234</p>
+                          <div class="master-img">
+                            <img src="images/master-img.png" alt="images" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="single-card">
+                      <div class="second-card">
+                        <div class="chip-area">
+                          <div class="balance">
+                            <p>Balance</p>
+                            <span>$5,756</span>
+                          </div>
+                          <div class="chip-img">
+                            <img src="images/chip-img-2.png" alt="images" />
+                          </div>
+                        </div>
+                        <div class="holder">
+                          <div class="single-holder">
+                            <p>CARD HOLDER</p>
+                            <span>Eddy Cusuma</span>
+                          </div>
+                          <div class="single-holder">
+                            <p>VALID THRU</p>
+                            <span>12/22</span>
+                          </div>
+                        </div>
+                        <div class="card-number">
+                          <p>3778 **** **** 1234</p>
+                          <div class="master-img">
+                            <img src="images/master-img-2.png" alt="images" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card-expenses">
+                <div class="heading">
+                  <h2>Card Expense Statistics</h2>
+                </div>
+                <div class="expense-chaart">
+                  <div
+                    id="chartContainer"
+                    style="height: 260px; width: 100%"
+                  ></div>
+                  <div class="bank-names">
+                    <div class="single-name">
+                      <span>DBL Bank</span>
+                    </div>
+                    <div class="single-name">
+                      <span>BRC Bank</span>
+                    </div>
+                    <div class="single-name">
+                      <span>ABM Bank</span>
+                    </div>
+                    <div class="single-name">
+                      <span>MCP Bank</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-6">
+              <div class="card-list">
+                <div class="heading">
+                  <h2>Card Expense Statistics</h2>
+                </div>
+                <div class="card-table">
+                  <div class="table-responsive">
+                    <table>
+                      <tr>
+                        <td>
+                          <div class="icon bg-two">
+                            <i class="flaticon-credit-card"></i>
+                          </div>
+                        </td>
+                        <td>
+                          <h5>Card Type</h5>
+                          <p>Secondary</p>
+                        </td>
+                        <td>
+                          <h5>Bank</h5>
+                          <p>DBL Bank</p>
+                        </td>
+                        <td>
+                          <h5>Card Number</h5>
+                          <p>**** **** 5600</p>
+                        </td>
+                        <td>
+                          <h5>Namain Card</h5>
+                          <p>William</p>
+                        </td>
+                        <td>
+                          <a href="#">View Details</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="icon bg-three">
+                            <i class="flaticon-credit-card"></i>
+                          </div>
+                        </td>
+                        <td>
+                          <h5>Card Type</h5>
+                          <p>Secondary</p>
+                        </td>
+                        <td>
+                          <h5>Bank</h5>
+                          <p>BRC Bank</p>
+                        </td>
+                        <td>
+                          <h5>Card Number</h5>
+                          <p>**** **** 4300</p>
+                        </td>
+                        <td>
+                          <h5>Namain Card</h5>
+                          <p>Michel</p>
+                        </td>
+                        <td>
+                          <a href="#">View Details</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="icon bg-one">
+                            <i class="flaticon-credit-card"></i>
+                          </div>
+                        </td>
+                        <td>
+                          <h5>Card Type</h5>
+                          <p>Secondary</p>
+                        </td>
+                        <td>
+                          <h5>Bank</h5>
+                          <p>ABM Bank</p>
+                        </td>
+                        <td>
+                          <h5>Card Number</h5>
+                          <p>**** **** 7560</p>
+                        </td>
+                        <td>
+                          <h5>Namain Card</h5>
+                          <p>Edward</p>
+                        </td>
+                        <td>
+                          <a href="#">View Details</a>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="new-card">
+                <div class="heading">
+                  <h2>Add New Card</h2>
+                </div>
+                <div class="add-card">
+                  <div class="details">
+                    <p>
+                      Credit Card generally means a plastic card issued by
+                      Scheduled Commercial Banks assigned to a Cardholder, with
+                      a credit limit, that can be used to purchase goods and
+                      services on credit or obtain cash advances.
+                    </p>
+                  </div>
+                  <form action="#">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="single-form">
+                          <p>Card Type</p>
+                          <input type="text" placeholder="Classic" />
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="single-form">
+                          <p>Name On Card</p>
+                          <input type="text" placeholder="My Cards" />
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="single-form">
+                          <p>Card Number</p>
+                          <input
+                            type="text"
+                            placeholder="**** **** **** ****"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="single-form">
+                          <p>Expiration Date</p>
+                          <input type="date" />
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="add-btn">
+                          <button type="submit">Add Card</button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card-setting">
+                <div class="heading">
+                  <h2>Card Setting</h2>
+                </div>
+                <div class="setting-list">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <div class="icon bg-one">
+                          <i class="flaticon-block-credit-card"></i>
+                        </div>
+                        <div class="text">
+                          <h5>Block Card</h5>
+                          <p>Instantly block your card</p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="icon bg-two">
+                          <i class="flaticon-padlock"></i>
+                        </div>
+                        <div class="text">
+                          <h5>Change Pin Code</h5>
+                          <p>Choose another pin code</p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="icon bg-three">
+                          <i class="flaticon-group-249"></i>
+                        </div>
+                        <div class="text">
+                          <h5>Add to Google Pay</h5>
+                          <p>Withdraw without any card</p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="icon bg-four">
+                          <i class="flaticon-apple"></i>
+                        </div>
+                        <div class="text">
+                          <h5>Add to Apple Pay</h5>
+                          <p>Withdraw without any card</p>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="icon bg-four">
+                          <i class="flaticon-apple"></i>
+                        </div>
+                        <div class="text">
+                          <h5>Add to Apple Store</h5>
+                          <p>Withdraw without any card</p>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- main-content end -->
+
+    <!-- jquery js -->
+    <script src="js/jquery.js"></script>
+    <!-- bootstrap min js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- bootstrap.bundle js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- canvasjs js -->
+    <script src="js/jquery.canvasjs.min.js"></script>
+    <!-- slick js -->
+    <script src="js/slick.min.js"></script>
+    <!-- main js -->
+    <script src="js/main.js"></script>
+    <script>
+      window.onload = function () {
+        var options = {
+          animationEnabled: true,
+          data: [
+            {
+              type: "doughnut",
+              innerRadius: "40%",
+              dataPoints: [
+                { y: 10, color: "#FF82AC" },
+                { y: 10, color: "#FFBB38" },
+                { y: 10, color: "#4C78FF" },
+                { y: 10, color: "#16DBCC" },
+              ],
+            },
+          ],
+        };
+        $("#chartContainer").CanvasJSChart(options);
+      };
+    </script>
+  </body>
+</html>
